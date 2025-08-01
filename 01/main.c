@@ -40,11 +40,11 @@ void printProcesses(int start, int end, char* argv[], char *str) {
     for (int i = start; i < end; i++) {
         if(isInt(argv[i])) {
             int num = atoi(argv[i]);
-            printf("%s: PID - %d: %d\n", str, getpid(), num * 2);
+            printf("%s: PID - %d: %d: %d\n", str, getpid(), num, num * 2);
         }
         else if (isFLoat(argv[i])) {
             float num = atof(argv[i]);
-            printf("%s: PID - %d: %f\n", str, getpid(), num * 2);
+            printf("%s: PID - %d: %f: %f\n", str, getpid(), num, num * 2);
         }
         else
             printf("%s: PID - %d: %s\n", str, getpid(), argv[i]);

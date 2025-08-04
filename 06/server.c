@@ -1,7 +1,7 @@
 #include "message.h"
 
 int msqid;
-int clients[100];  // макс. клиентов
+int clients[100];  
 int client_count = 0;
 
 int is_shutdown(const char *msg) {

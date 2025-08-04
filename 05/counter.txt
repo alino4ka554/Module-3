@@ -5,17 +5,19 @@
 5
 6
 7
+Received SIGINT
 8
 9
 10
-Received SIGINT
 11
 12
 13
+Received SIGOUT
 14
 15
 16
 17
+Received SIGINT
 18
 19
 20
@@ -24,17 +26,11 @@ Received SIGINT
 23
 24
 25
-Received SIGOUT
 26
 27
 28
-Received SIGINT
 29
 30
 31
 32
-33
-34
-35
-36
 Received SIGINT

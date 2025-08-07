@@ -15,7 +15,7 @@ void processing(int signal) {
         if(signal == SIGINT) {
             countSIGINT++;
             if(countSIGINT == 3) {
-                printf("PROCESS KILLED");
+                printf("PROCESS KILLED\n");
                 fclose(file);
                 exit(0);
             }
